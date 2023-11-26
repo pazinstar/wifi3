@@ -106,7 +106,7 @@
        
         <form method="post" action="{% url 'balance:home' %}">
             {% csrf_token %}
-            <label for="username">Username:</label>
+            <label for="username">Username/Phone:</label>
             <input type="text" name="username" required>
             {% if messages %}
                 <ul class="messages">
